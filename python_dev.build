@@ -19,10 +19,8 @@ RUN cd / && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
 #	&& cd /usr/local/Python-3.7.0 \
 #	&& ./configure && make && make install
 
-#RUN pip install locust
-
 # 创建src目录
-COPY robot /root/robot
+#COPY robot /root/robot
 #WORKDIR /root/robot
 
 # install related packages
